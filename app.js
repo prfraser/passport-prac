@@ -64,7 +64,6 @@ app.use(express.static(__dirname + '/public'));
 
 // ExpressJS Rendering Engine
 app.set('view engine', 'pug');
-
 // Authentication Page
 app.get('/auth', function (req, res) {
   res.render('auth');
